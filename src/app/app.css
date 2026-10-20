@@ -1,0 +1,20 @@
+
+.car-details {
+    margin: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px #ddd;
+  }
+  
+  .car-details h2 {
+    color: #163600;
+    margin-bottom: 15px;
+  }
+  
+  .car-details p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
