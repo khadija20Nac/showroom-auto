@@ -1,0 +1,218 @@
+[
+    {
+        "brand": "Promo Skoda Fabia",
+        "model": "Promo Skoda Fabia",
+        "price": 65980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2024/02/47102.png?t=1788885702",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Nouveau Skoda Slavia",
+        "model": "Nouveau Skoda Slavia",
+        "price": 66980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2026/10/47706.png?t=1791387181",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Promo Skoda Kamiq",
+        "model": "Promo Skoda Kamiq",
+        "price": 88980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2024/02/47105.png?t=1789137607",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Promo Skoda Scala",
+        "model": "Promo Skoda Scala",
+        "price": 90980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2024/05/47148.png?t=1789137736",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Promo Skoda Octavia",
+        "model": "Promo Skoda Octavia",
+        "price": 123980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/02/47305.png?t=1789137782",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Promo Skoda Superb",
+        "model": "Promo Skoda Superb",
+        "price": 150980,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/11/47507.png?t=1789137929",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Suzuki Celerio Populaire",
+        "model": "Suzuki Celerio Populaire",
+        "price": 28457,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2022/09/46815.jpg?t=1775818637",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Avantier Avantier C",
+        "model": "Avantier Avantier C",
+        "price": 28700,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/10/47493.png?t=1761899050",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Renault Kwid Populaire",
+        "model": "Renault Kwid Populaire",
+        "price": 30209,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2026/09/47682.jpg?t=1788884273",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "KIA Picanto Populaire",
+        "model": "KIA Picanto Populaire",
+        "price": 32794,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2024/09/47204.jpg?t=1779705955",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Cenntro Logistar 100",
+        "model": "Cenntro Logistar 100",
+        "price": 32800,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/10/47490.png?t=1761837380",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "DFSK K01S",
+        "model": "DFSK K01S",
+        "price": 32900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2021/04/46572.jpg?t=1775221398",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Chery Tiggo 1X populaire",
+        "model": "Chery Tiggo 1X populaire",
+        "price": 33130,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/03/47340.jpg?t=1789153650",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Hyundai Grand i10 Populaire",
+        "model": "Hyundai Grand i10 Populaire",
+        "price": 33495,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2023/09/46490.png?t=1791891804",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Citroën C3 Populaire",
+        "model": "Citroën C3 Populaire",
+        "price": 35000,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2026/03/47613.jpg?t=1774341823",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "DFSK K01H",
+        "model": "DFSK K01H",
+        "price": 35900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2020/03/46354.jpg?t=1726650352",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Avantier Commuter",
+        "model": "Avantier Commuter",
+        "price": 37800,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/12/47516.png?t=1769345659",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Changan New Star Van",
+        "model": "Changan New Star Van",
+        "price": 39900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2022/09/46810.jpg?t=1715348764",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Promo DFSK K02S",
+        "model": "Promo DFSK K02S",
+        "price": 40900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2021/04/46574.jpg?t=1760348629",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Disponible Tata Super Ace Simple Cabine",
+        "model": "Disponible Tata Super Ace Simple Cabine",
+        "price": 41900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2023/05/46936.jpg?t=1789549981",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "DFSK C31",
+        "model": "DFSK C31",
+        "price": 44900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2024/09/47219.jpg?t=1775220966",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "DFSK C35",
+        "model": "DFSK C35",
+        "price": 46900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2026/05/47634.jpg?t=1791360351",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Changan Star Truck Double Cabine",
+        "model": "Changan Star Truck Double Cabine",
+        "price": 49900,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2021/02/46548.jpg?t=1714049419",
+        "availability": true,
+        "description": "Voiture neuve"
+    },
+    {
+        "brand": "Dongfeng Box",
+        "model": "Dongfeng Box",
+        "price": 49990,
+        "power": 0,
+        "photo": "https://catalogue.automobile.tn/max/2025/09/47448.jpg?t=1777971008",
+        "availability": true,
+        "description": "Voiture neuve"
+    }
+]

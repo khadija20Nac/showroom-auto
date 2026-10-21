@@ -1,79 +1,195 @@
 
+/* Barre de recherche */
 .container {
   margin: 30px auto;
   padding: 20px;
-  width: 300px;
+  width: fit-content;
+  max-width: calc(100% - 40px);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: 0 3px 8px #ddd;
+  flex-wrap: wrap;
+  gap: 12px;
+  box-sizing: border-box;
+  border: 1px solid #E2E5DE;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(23, 75, 43, 0.08);
 }
 
-input {
+.container input {
   all: unset;
-  width: 150px;
+  width: 170px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #DDE2D9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #26332B;
+  background-color: #F6F7F4;
+}
+
+.container input:focus {
+  border-color: #174B2B;
+  box-shadow: 0 0 0 2px rgba(23, 75, 43, 0.1);
 }
 
 fa-icon {
-  color: #072801;
+  color: #174B2B;
   cursor: pointer;
 }
 
 label {
-  font-weight: bold;
-  color: rgb(2, 39, 2);
+  font-weight: 600;
+  color: #26332B;
 }
 
-.cars-container {
+/* Boutons */
+button {
+  all: unset;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #174B2B;
+  border-radius: 8px;
+  background-color: #174B2B;
+  color: #FFFFFF;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0D321C;
+  border-color: #D9B878;
+}
+
+/* Tri par prix */
+.sort-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-
+  gap: 12px;
+  margin: 24px 20px;
 }
 
+.sort-container select {
+  padding: 10px 14px;
+  border: 1px solid #DDE2D9;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #26332B;
+  cursor: pointer;
+  outline-color: #174B2B;
+}
+
+/* Grille des voitures */
+.cars-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  padding: 24px 35px;
+  align-items: stretch;
+  background-color: #F6F7F4;
+}
+
+/* Carte individuelle */
 .auto-card {
-  margin: 20px;
-  width: 250px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: 0 4px 8px #ddd;
-  height: fit-content;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid #E5E7E1;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(23, 75, 43, 0.06);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auto-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(23, 75, 43, 0.12);
+  border-color: #D9B878;
 }
 
 .auto-card img {
   width: 100%;
-  height: 150px;
+  height: 165px;
   object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .details h3 {
-  color: #333;
+  color: #174B2B;
   text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
 }
+
 .details p {
-  color: #666;
-  line-height: 1.6;
+  color: #5E665F;
+  line-height: 1.7;
+  font-size: 14px;
 }
 
-button {
-  all: unset;
-  padding: 8px 12px;
-  border-radius: 8px;
-  background-color: #056125;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
+/* Message si aucune voiture n'est trouvée */
+.no-results {
+  text-align: center;
+  font-size: 17px;
+  color: #5E665F;
+  margin: 35px 15px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7E1;
+  border-radius: 12px;
 }
 
-button:hover {
-  background-color: rgb(0, 61, 0);
+/* Tablettes */
+@media (max-width: 1200px) {
+  .cars-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
-.auto-card:hover {
-  box-shadow: 0 6px 12px #ccc;
+
+/* Petits écrans */
+@media (max-width: 850px) {
+  .cars-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 20px;
+    gap: 18px;
+  }
+}
+
+/* Téléphones */
+@media (max-width: 550px) {
+  .container {
+    width: calc(100% - 30px);
+    max-width: none;
+    padding: 15px;
+  }
+
+  .container input {
+    width: 100%;
+  }
+
+  .sort-container {
+    margin: 20px 10px;
+  }
+
+  .cars-container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 18px;
+  }
+
+  .auto-card img {
+    height: 180px;
+  }
 }

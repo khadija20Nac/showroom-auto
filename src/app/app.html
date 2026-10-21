@@ -1,10 +1,29 @@
 <app-head-bar></app-head-bar>
 
-<app-search-bar [autos]="autoList" (selectAutoEvent)="selectCar($event)"> </app-search-bar>
+<app-search-bar [autos]="autoList" [hideCars]="!!selectedCar" (selectAutoEvent)="selectCar($event)">
+</app-search-bar>
 
 @if (selectedCar) {
   <div class="car-details">
-    <h2>{{ selectedCar.brand }} {{ selectedCar.model }}</h2>
-    <p>{{ selectedCar.description }}</p>
+    <img
+      [src]="
+        selectedCar.photo.startsWith('http') ? selectedCar.photo : 'images/' + selectedCar.photo
+      "
+      [alt]="selectedCar.model"
+    />
+
+    <div>
+      <h2>{{ selectedCar.model }}</h2>
+
+      <p><strong>Marque :</strong> {{ selectedCar.brand }}</p>
+      <p><strong>Prix :</strong> {{ selectedCar.price }} DT</p>
+      <p>
+        <strong>Puissance :</strong>
+        {{ selectedCar.power === 0 ? 'Non précisée' : selectedCar.power }}
+      </p>
+      <p><strong>Description :</strong> {{ selectedCar.description }}</p>
+
+      <button class="back-button" (click)="selectedCar = undefined!">← Retour aux voitures</button>
+    </div>
   </div>
 }
